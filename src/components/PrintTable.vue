@@ -125,13 +125,13 @@ export default {
     };
   },
   mounted() {
-    if (!this.desserts) {
+/*     if (!this.desserts) {
       let desserts = JSON.parse(localStorage.getItem("desserts"));
       if (desserts) {
         this.desserts = desserts;
         this.total = this.sumTotal();
       }
-    }
+    } */
   },
   methods: {
     sumTotal() {

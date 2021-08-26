@@ -280,9 +280,9 @@ export default {
     convertToNumber,
     calcProfit,
     saveIt() {
-      if (this.desserts.length !== 0) {
+/*       if (this.desserts.length !== 0) {
         localStorage.setItem("desserts", JSON.stringify(this.desserts));
-      }
+      } */
     },
     printIt() {
       if (this.desserts.length !== 0) {
@@ -367,12 +367,12 @@ export default {
     },
   },
   mounted() {
-    let desserts = localStorage.getItem("desserts");
+/*     let desserts = localStorage.getItem("desserts");
     if (desserts) {
       if (!this.items) {
         this.$emit("updateitems", desserts);
       }
-    }
+    } */
   },
 };
 </script>
