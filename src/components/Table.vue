@@ -363,7 +363,7 @@ export default {
     deleteItemConfirm(item) {
       this.desserts.splice(this.editedIndex, 1);
       this.closeDelete();
-      this.saveIt()
+      this.saveIt();
     },
   },
   mounted() {
